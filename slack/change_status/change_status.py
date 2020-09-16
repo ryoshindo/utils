@@ -5,7 +5,7 @@ import subprocess
 
 user_id = os.environ['CMT_SLACK_USER_ID']
 cmt_bssid = os.environ['CMT_BSSID']
-token = 'xoxp-462861973812-563395089110-1257868706036-6ee8c557475799ff6f0a7cc559412d03'
+token = ''
 headers = {'Authorization': 'Bearer %s' % token, 'X-Slack-User': user_id, 'Content-Type': 'application/json; charset=utf-8'}
 slack_url = 'https://slack.com/api/users.profile.set'
 
