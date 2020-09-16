@@ -15,7 +15,7 @@ change_status.pyは随時機能拡充、そしてバグ取り等を行う予定�
 
 ## 動作環境
 Python 3.7.4
-<br>OS Mojave
+<br>OS Mojave 10.14.6
 
 # セットアップの手順
 具体的なセットアップの手順としては、
