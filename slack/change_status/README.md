@@ -29,7 +29,6 @@ Python 3.7.4
 ## macの環境設定
 1. まず研究室のBSSIDの値を取得します。ターミナルを開いて以下のコマンドを実行してください。このコマンドは必ず研究室で実行してください。
 <br>```$ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | grep BSSID | awk '{print $2}'```
-<br>ちなみに先生の部屋の隣の研究室のBSSIDは ```f0:99:bf:e:8e:c5``` です。
 
 2. ターミナルに表示された結果を環境変数として設定します。
 <br>```$ export CMT_BSSID="1.のコマンドの結果"```
